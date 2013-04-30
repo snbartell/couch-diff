@@ -1,0 +1,8 @@
+{
+  "name": "couch-diff",
+  "version": "0.0.0",
+  "dependencies": {
+    "interset": "0.0.2",
+    "request": "~2.21.0"
+  }
+}
