@@ -5,7 +5,7 @@ var db1 = process.argv[2]
 var db2 = process.argv[3]
 
 if (!db1 || !db2)
-  return console.error('i need two database paths to take an intersection')
+  return console.error('i need two database paths to take the difference')
 
 request.get(db1+'/_all_docs', function (er, res, a) {
   request.get(db2+'/_all_docs', function (er, res, b) {
