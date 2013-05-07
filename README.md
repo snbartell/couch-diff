@@ -1,7 +1,7 @@
 couch-diff
 ==========
 
-take the set difference of two databases
+take the set difference of two databases. Basically get `_all_docs` of both databases and take the difference (a - b)
 
 install
 -------
